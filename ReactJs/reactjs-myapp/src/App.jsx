@@ -5,13 +5,12 @@ import SimpleForm from './Components/SimpleForm'
 import MultiFormData from './Components/MultiFormData'
 
 function App() {
+  name = "Abdul Samad"
   return (
     <div>
       <div className='Ali'>
      
-      <Counter></Counter>
-      <SimpleForm></SimpleForm>
-      <MultiFormData></MultiFormData>
+        <h1>ths is ${name}</h1>
       </div>
     </div>
   )
