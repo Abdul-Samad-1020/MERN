@@ -3,14 +3,16 @@ import Form from './Components/Form'
 import Counter from './Components/Counter'
 import SimpleForm from './Components/SimpleForm'
 import MultiFormData from './Components/MultiFormData'
+import UncontrollableForm from './Components/UncontrollableForm'
 
 function App() {
-  name = "Abdul Samad"
+
   return (
     <div>
       <div className='Ali'>
-     
-        <h1>ths is ${name}</h1>
+     <h1>this is UncontrollableForm</h1>
+      <UncontrollableForm/>
+      {/* <MultiFormData/> */}
       </div>
     </div>
   )
