@@ -13,8 +13,10 @@ const Timer = () => {
 
     return (
     <div>
+      <div style={{border:'3px', background:'black', color:'white', height:'50vh' , width:'50vw', borderRadius:'50px', padding:'20px'}}>
       <h4>This is timer componentss</h4>
       <h1>{Counter}</h1>
+    </div>
     </div>
   )
 }
