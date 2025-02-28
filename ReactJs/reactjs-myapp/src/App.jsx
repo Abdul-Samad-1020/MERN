@@ -1,20 +1,18 @@
-import React from 'react'
-import Form from './Components/Form'
-import Counter from './Components/Counter'
-import SimpleForm from './Components/SimpleForm'
-import MultiFormData from './Components/MultiFormData'
-import UncontrollableForm from './Components/UncontrollableForm'
-// import ToDo from './Components/ToDo'
-import Timer from './Components/Timer'
-import Condition from './Components/Condition'
-
+import React, { useContext } from 'react'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import NavBar from './Components/NavBar'
+import ToDo from './Components/ToDo'
+import ThemeContext from './Components/ThemeContest'
 function App() {
 
+  const [theme, toggleTheme] = useContext(ThemeContext);
   return (
-    <div>
-        <h1>Abdul samad</h1>
-     <Timer/>
-     <Condition/>
+    <div style={{
+      backgroundColor: theme === 'light'? 'white': 'black',
+      color: theme === 'light'? 'black': 'white',
+    }}> 
+ 
+    <button onClick={toggleTheme}></button>
     </div>
   )
 }
