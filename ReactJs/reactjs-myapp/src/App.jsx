@@ -4,14 +4,15 @@ import Counter from './Components/Counter'
 import SimpleForm from './Components/SimpleForm'
 import MultiFormData from './Components/MultiFormData'
 import UncontrollableForm from './Components/UncontrollableForm'
-import ToDo from './Components/ToDo'
+// import ToDo from './Components/ToDo'
+import Timer from './Components/Timer'
+
 function App() {
 
   return (
     <div>
-      <div >
-     <ToDo/>
-      </div>
+
+     <Timer/>
     </div>
   )
 }
