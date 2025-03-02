@@ -1,20 +1,14 @@
-import React, { useContext } from 'react'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import NavBar from './Components/NavBar'
-import ToDo from './Components/ToDo'
-import ThemeContext from './Components/ThemeContest'
-function App() {
+import React, { useContext } from "react";
 
-  const [theme, toggleTheme] = useContext(ThemeContext);
+import Count from "./Components/Count";
+
+function App() {
   return (
-    <div style={{
-      backgroundColor: theme === 'light'? 'white': 'black',
-      color: theme === 'light'? 'black': 'white',
-    }}> 
- 
-    <button onClick={toggleTheme}></button>
+    <div>
+      <h1>hello World</h1>
+      <Count/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
