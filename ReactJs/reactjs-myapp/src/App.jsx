@@ -1,14 +1,13 @@
-import React, { useContext } from "react";
+import React from 'react'
+import FetchWithAxios from './Components/FetchWithAxios'
 
-import Count from "./Components/Count";
-
-function App() {
+const App = () => {
   return (
     <div>
-      <h1>hello World</h1>
-      <Count/>
+      <h1>fetching api</h1>
+      <FetchWithAxios/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
