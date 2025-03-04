@@ -1,4 +1,8 @@
 import React, { useState } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
+
 
 const CrudApp = () => {
   const [task, setTask] = useState([]);
@@ -47,14 +51,14 @@ const CrudApp = () => {
         value={taskInput}
         onChange={(e) => setTaskInput(e.target.value)}
       />
-      <button onClick={handleTask}>{isEditing ? "Update Task" : "Add Task"}</button>
+      <button  variant="contained" onClick={handleTask}>{isEditing ? "Update Task" : "Add Task"}</button>
 
       <ul>
         {task.map((task, index) => (
           <li key={index}>
             {task}{" "}
-            <button onClick={() => handleDeleteTask(index)}>Delete</button>
-            <button onClick={() => handleUpdateTask(index)}>Update</button>
+            <button  variant="contained" onClick={() => handleDeleteTask(index)}>Delete</button>
+            <button   variant="contained" onClick={() => handleUpdateTask(index)}>Update</button>
           </li>
         ))}
       </ul>
