@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.6",
+    "@tailwindcss/vite": "^4.0.9"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "tailwindcss": "^4.0.9"
+  }
+}
