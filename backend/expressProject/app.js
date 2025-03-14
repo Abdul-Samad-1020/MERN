@@ -21,4 +21,10 @@ app.get('/', (req,res,next)=>{
     return next();
 })
 
+app.get('/about',(req,res,next)=>{
+    console.log("about middleware");
+    return next();
+}, (req,res)=>{
+    res.send('About page');
+})
   app.listen(3000, ()=> console.log('Server started on port 3000'));
