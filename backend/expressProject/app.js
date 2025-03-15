@@ -1,30 +1,51 @@
-const express= require('express');
-const app = express();
-const morgan = require('morgan');
+let express = require("express");
+let app = express();
+let morgan = require("morgan");
 
-// Middleware to log HTTP requests  
-  app.use(morgan('dev'));
-  app.use(express.json());
-  app.set("view engine",'ejs');
+const dbconnection = require('./config/db');
+const userModel = require('./Models/user');
 
-  app.get('/', (req,res)=>{
-    res.render('index');
-  });
+// Middleware to parse JSON and handle form data
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(morgan('dev'));
 
-  app.post('/process', (req,res)=>{
+app.set("view engine", "ejs");
+app.use(express.static("public"));
+
+// Global Middleware (Should be before route handlers)
+app.use((req, res, next) => {
+    console.log("This is middleware");
+    next();
+});
+
+// Routes
+app.get("/", (req, res) => {
+    res.render("index", { title: "This is Home" });
+});
+
+app.post("/login-form-data", (req, res) => {
     console.log(req.body);
-    res.send('Form submitted successfully');
-  });
-  
-app.get('/', (req,res,next)=>{
-    console.log("this is middleware");
-    return next();
-})
+    res.send("Data received");
+});
 
-app.get('/about',(req,res,next)=>{
-    console.log("about middleware");
-    return next();
-}, (req,res)=>{
-    res.send('About page');
-})
-  app.listen(3000, ()=> console.log('Server started on port 3000'));
+app.get("/home", (req, res) => {
+    res.json({ status: 1, message: "Welcome to Homepage", data: null });
+});
+
+app.get("/news/:id", (req, res) => {
+    let news = req.params.id;
+    res.json({ status: 1, message: "Hello", data: news });
+});
+
+// Global Error Handling Middleware
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).json({ status: 0, message: "Something went wrong!", error: err.message });
+});
+
+// Start Server
+const PORT = process.env.PORT || 8000;
+app.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
+});

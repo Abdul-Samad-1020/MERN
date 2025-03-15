@@ -2,21 +2,30 @@ let express = require("express");
 let app = express();
 let morgan = require("morgan");
 app.use(morgan('dev'));
-
+const dbconnection = require('./config/db');
+const userModel = require('./Models/user')
 // Middleware to parse JSON requests
 app.use(express.json());
-app.set("view engine", "ejs");
+app.use(express.urlencoded({ extended: true }));// use to show form  data using public
 
+app.set("view engine", "ejs");
+app.use(express.static("public"));
 // Handle POST request for login
-app.get("/login", (req, res) => {
-  console.log(req.body); // Log the request body
-  res.send({ status: 1, message: "Login success", data: req.body });
-});
+// app.get("/login", (req, res) => {
+//   console.log(req.body); // Log the request body
+//   res.send({ status: 1, message: "Login success", data: req.body });
+// });
 
 app.get("/", (req, res) => {
-  res.render("index", { title: "Welcome" });
+  res.render("index", { title: "this is home" });
 });
+app.post("/login-form-data", (req, res) => {
+  console.log(req.body);
+  res.send("data received");
+})
 
+
+// this is middleware
 app.use((req, res, next) => {
   console.log("this is middleware");
   return next();
