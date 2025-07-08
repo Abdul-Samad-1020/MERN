@@ -1,5 +1,2 @@
-public static void main(){
-  int main(){
-    system.out.println("hello");
-  };
-}
+complete journey  from zero to hero 
+< M E A N  />
