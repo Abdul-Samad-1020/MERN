@@ -3,7 +3,7 @@ const express = require('express')
 const bodyparser = require('body-parser')
 const cors = require('cors')
 const db = require('./db')
-
+const userModel = require('./Model/user')
 const app = express()
 app.use(bodyparser.json())
 app.use(cors({
