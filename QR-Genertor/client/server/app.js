@@ -3,16 +3,27 @@ const express = require('express')
 const bodyparser = require('body-parser')
 const cors = require('cors')
 const db = require('./db')
-const userModel = require('./Model/user')
+// const userModel = require('./Model/user')
+
+
+const userRouter = require('./Route/UserRoute')
+
 const app = express()
 app.use(bodyparser.json())
 app.use(cors({
-    origin:'https://localhost:3000'
+    origin:'http://localhost:3000'
 }))
 
 
 
-const port = process.env.PORT ;
-app.listen(port,(req,res)=>{
-    console.log(`server is runing on ; ${port}`)
-})
+app.use('/userapi',userRouter)
+
+// const port = process.env.PORT || 7000;
+// app.listen(port,(req,res)=>{
+//     console.log(`server is runing on ; ${port}`)
+// })
+
+const port = process.env.PORT || 5000;
+app.listen(port, () => {
+    console.log(`✅ Server is running on: ${port}`);
+});
