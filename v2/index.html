@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DigitalBoost Agency - Leading digital marketing services to grow your business online. SEO, PPC, Social Media Marketing, and Web Development.">
+    <meta name="keywords" content="digital marketing, SEO, PPC, social media marketing, web development, online marketing">
+    <meta name="author" content="DigitalBoost Agency">
+    <meta property="og:title" content="DigitalBoost Agency - Digital Marketing Excellence">
+    <meta property="og:description" content="Transform your business with our comprehensive digital marketing solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://digitalboost.agency">
+    <meta property="og:image" content="https://digitalboost.agency/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DigitalBoost Agency - Digital Marketing Excellence">
+    <meta name="twitter:description" content="Transform your business with our comprehensive digital marketing solutions.">
+    <link rel="canonical" href="https://digitalboost.agency">
+    <title>Digital Dizzles Agency - Digital Marketing Excellence</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" as="style">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-inter antialiased">
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-primary text-white px-4 py-2 rounded-md z-50">
+        Skip to main content
+    </a>
+
+    <!-- Navigation -->
+    <nav class="glass-navbar fixed top-0 left-0 right-0 z-50 transition-all duration-300" role="navigation" aria-label="Main navigation">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="#home" class="text-2xl font-bold text-white flex items-center hover:text-red-accent transition-colors duration-300" aria-label="DigitalBoost Agency Home">
+                        <img src="/Assets/image/logo-removebg-preview.png" alt="logo" width="90px" style="padding: 20px;">
+                       Digital Dizzles 
+                    </a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="text-white hover:text-red-accent transition-colors duration-300 px-3 py-2 text-sm font-medium">Home</a>
+                        <a href="#services" class="text-white hover:text-red-accent transition-colors duration-300 px-3 py-2 text-sm font-medium">Services</a>
+                        <a href="#projects" class="text-white hover:text-red-accent transition-colors duration-300 px-3 py-2 text-sm font-medium">Projects</a>
+                        <a href="#about" class="text-white hover:text-red-accent transition-colors duration-300 px-3 py-2 text-sm font-medium">About</a>
+                        <a href="#portfolio" class="text-white hover:text-red-accent transition-colors duration-300 px-3 py-2 text-sm font-medium">Portfolio</a>
+                        <a href="#testimonials" class="text-white hover:text-red-accent transition-colors duration-300 px-3 py-2 text-sm font-medium">Testimonials</a>
+                        <button onclick="openConsultationModal()" class="btn-primary text-sm px-6 py-2">
+                            Book Consultation
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-white hover:text-red-accent focus:outline-none focus:text-red-accent transition-colors duration-300 p-2" aria-label="Toggle mobile menu" aria-expanded="false">
+                        <i class="fas fa-bars text-xl" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu hidden md:hidden" role="menu">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="text-white hover:text-red-accent block px-3 py-2 text-base font-medium transition-colors duration-300" role="menuitem">Home</a>
+                <a href="#services" class="text-white hover:text-red-accent block px-3 py-2 text-base font-medium transition-colors duration-300" role="menuitem">Services</a>
+                <a href="#projects" class="text-white hover:text-red-accent block px-3 py-2 text-base font-medium transition-colors duration-300" role="menuitem">Projects</a>
+                <a href="#about" class="text-white hover:text-red-accent block px-3 py-2 text-base font-medium transition-colors duration-300" role="menuitem">About</a>
+                <a href="#portfolio" class="text-white hover:text-red-accent block px-3 py-2 text-base font-medium transition-colors duration-300" role="menuitem">Portfolio</a>
+                <a href="#testimonials" class="text-white hover:text-red-accent block px-3 py-2 text-base font-medium transition-colors duration-300" role="menuitem">Testimonials</a>
+                <button onclick="openConsultationModal()" class="btn-primary w-full mt-4" role="menuitem">
+                    Book Consultation
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <!-- Enhanced hero section with premium elements -->
+<section id="home" style="padding-top: 100px;" class="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <!-- Premium background effects -->
+    <div class="absolute inset-0 gradient-mesh opacity-20"></div>
+    <div class="absolute inset-0">
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-gradient-to-r from-red-500/20 to-yellow-500/20 rounded-full blur-3xl animate-pulse-glow"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-3xl animate-pulse-glow" style="animation-delay: 2s;"></div>
+    </div>
+    
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <!-- Left content -->
+            <div class="text-center lg:text-left space-y-8 animate-fade-in">                
+                <h1 class="hero-title text-4xl sm:text-5xl lg:text-7xl font-black leading-tight">
+                    <span class="text-gradient-premium">Transform</span> Your<br>
+                    <span class="text-gradient">Digital Presence</span>
+                </h1>
+                
+                <p class="hero-subtitle text-lg sm:text-xl lg:text-2xl text-slate-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                    Elevate your brand with our premium digital marketing solutions. We deliver 
+                    <span class="text-premium-gold font-semibold">exceptional results</span> that drive growth and maximize ROI.
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <button onclick="openConsultationModal()" class="btn-primary animate-pulse-glow">
+                        Get Started Today
+                    </button>
+                    <a href="#projects" class="btn-outline">
+                        View Our Work
+                    </a>
+                </div>
+                
+                <div class="grid grid-cols-3 gap-6 max-w-md mx-auto lg:mx-0">
+                    <div class="text-center lg:text-left">
+                        <div class="text-3xl lg:text-4xl font-bold text-red-accent mb-2" data-count="500">0</div>
+                        <div class="text-sm text-gray-400">Projects Completed</div>
+                    </div>
+                    <div class="text-center lg:text-left">
+                        <div class="text-3xl lg:text-4xl font-bold text-green-500 mb-2" data-count="98">0</div>
+                        <div class="text-sm text-gray-400">Client Satisfaction</div>
+                    </div>
+                    <div class="text-center lg:text-left">
+                        <div class="text-3xl lg:text-4xl font-bold text-accent mb-2" data-count="5">0</div>
+                        <div class="text-sm text-gray-400">Years Experience</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dashboard Mockup -->
+            <div class="hidden lg:block animate-float">
+                <img src="/Assets/image/team2.jpg" alt="">
+                <!-- <div class="glass-card rounded-3xl p-8">
+                    <div class="flex items-center justify-between mb-6">
+                        <h3 class="text-2xl font-bold">Performance Dashboard</h3>
+                        <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-6 mb-8">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-red-accent mb-2">324%</div>
+                            <div class="text-sm text-gray-400">ROI Increase</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-green-400 mb-2">89</div>
+                            <div class="text-sm text-gray-400">Active Projects</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-blue-400 mb-2">97%</div>
+                            <div class="text-sm text-gray-400">Client Satisfaction</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-red-accent mb-2">$2.4M</div>
+                            <div class="text-sm text-gray-400">Revenue Generated</div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center justify-between">
+                        <div class="text-sm text-gray-400">Updated 5 mins ago</div>
+                        <button class="text-blue-400 hover:text-blue-300 transition-colors">View Report</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Services Section -->
+        <!-- Added premium section dividers between sections -->
+<div class="section-divider"></div>
+        <section id="services" class="gradient-mesh-dark py-20" role="region" aria-labelledby="services-heading">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 id="services-heading" class="text-4xl lg:text-5xl font-bold mb-6">Our Services</h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        We offer comprehensive digital marketing solutions to help your business thrive in the digital landscape.
+                    </p>
+                </div>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Service Cards -->
+                    <div class="glass-card card-hover rounded-2xl p-8">
+                        <div class="text-red-accent text-4xl mb-6" aria-hidden="true">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">SEO Optimization</h3>
+                        <p class="text-gray-300 mb-6">
+                            Boost your search engine rankings and drive organic traffic with our proven SEO strategies and techniques.
+                        </p>
+                        <ul class="space-y-2" role="list">
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>Keyword Research
+                            </li>
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>On-page Optimization
+                            </li>
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>Link Building
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="glass-card card-hover rounded-2xl p-8">
+                        <div class="text-red-accent text-4xl mb-6" aria-hidden="true">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">PPC Advertising</h3>
+                        <p class="text-gray-300 mb-6">
+                            Maximize your advertising ROI with targeted pay-per-click campaigns across Google, Facebook, and other platforms.
+                        </p>
+                        <ul class="space-y-2" role="list">
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>Campaign Setup
+                            </li>
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>Ad Optimization
+                            </li>
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>Performance Tracking
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="glass-card card-hover rounded-2xl p-8">
+                        <div class="text-red-accent text-4xl mb-6" aria-hidden="true">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Social Media Marketing</h3>
+                        <p class="text-gray-300 mb-6">
+                            Build your brand presence and engage with your audience across all major social media platforms.
+                        </p>
+                        <ul class="space-y-2" role="list">
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>Content Creation
+                            </li>
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>Community Management
+                            </li>
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>Social Advertising
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="glass-card card-hover rounded-2xl p-8">
+                        <div class="text-red-accent text-4xl mb-6" aria-hidden="true">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Web Development</h3>
+                        <p class="text-gray-300 mb-6">
+                            Create stunning, responsive websites that convert visitors into customers with our expert development team.
+                        </p>
+                        <ul class="space-y-2" role="list">
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>Custom Design
+                            </li>
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>Mobile Optimization
+                            </li>
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>Performance Optimization
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="glass-card card-hover rounded-2xl p-8">
+                        <div class="text-red-accent text-4xl mb-6" aria-hidden="true">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Email Marketing</h3>
+                        <p class="text-gray-300 mb-6">
+                            Nurture leads and retain customers with personalized email campaigns that drive engagement and sales.
+                        </p>
+                        <ul class="space-y-2" role="list">
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>Campaign Design
+                            </li>
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>List Segmentation
+                            </li>
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>Automation Setup
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="glass-card card-hover rounded-2xl p-8">
+                        <div class="text-red-accent text-4xl mb-6" aria-hidden="true">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Analytics & Reporting</h3>
+                        <p class="text-gray-300 mb-6">
+                            Make data-driven decisions with comprehensive analytics and detailed reporting on all your marketing efforts.
+                        </p>
+                        <ul class="space-y-2" role="list">
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>Performance Tracking
+                            </li>
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>Custom Dashboards
+                            </li>
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>Monthly Reports
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <!-- Added premium section dividers between sections -->
+<div class="section-divider"></div>
+        <section id="projects" class="py-20 bg-darker" role="region" aria-labelledby="projects-heading">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 id="projects-heading" class="text-4xl lg:text-5xl font-bold mb-6">
+                        <span class="text-gradient">Featured Projects</span>
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Explore our latest work and see how we've helped businesses transform their digital presence with measurable results.
+                    </p>
+                </div>
+                
+                <div class="grid lg:grid-cols-2 gap-12">
+                    <!-- Project Cards -->
+                    <article class="glass-card card-hover rounded-3xl p-8 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-br from-red-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        
+                        <div class="relative z-10">
+                            <div class="flex items-center justify-between mb-6">
+                                <div class="w-16 h-16 bg-gradient-to-br from-red-accent to-red-light rounded-2xl flex items-center justify-center shadow-lg">
+                                    <i class="fas fa-shopping-cart text-white text-2xl" aria-hidden="true"></i>
+                                </div>
+                                <span class="text-sm text-red-accent font-semibold bg-red-accent/10 px-3 py-1 rounded-full">E-commerce</span>
+                            </div>
+                            
+                            <h3 class="text-2xl font-bold text-white mb-4">TechCorp Online Store</h3>
+                            <p class="text-gray-300 mb-6 leading-relaxed">
+                                Complete e-commerce platform redesign with advanced analytics, resulting in 340% increase in online sales and 65% improvement in user experience.
+                            </p>
+                            
+                            <div class="grid grid-cols-3 gap-4 mb-6">
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-red-accent mb-1">340%</div>
+                                    <div class="text-xs text-gray-400">Sales Increase</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-green-400 mb-1">65%</div>
+                                    <div class="text-xs text-gray-400">UX Improvement</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-blue-400 mb-1">2.8x</div>
+                                    <div class="text-xs text-gray-400">Conversion Rate</div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="text-xs bg-white/10 text-gray-300 px-3 py-1 rounded-full">SEO</span>
+                                <span class="text-xs bg-white/10 text-gray-300 px-3 py-1 rounded-full">PPC</span>
+                                <span class="text-xs bg-white/10 text-gray-300 px-3 py-1 rounded-full">Web Development</span>
+                                <span class="text-xs bg-white/10 text-gray-300 px-3 py-1 rounded-full">Analytics</span>
+                            </div>
+                            
+                            <button class="text-red-accent hover:text-red-light transition-colors duration-300 font-semibold flex items-center">
+                                View Case Study <i class="fas fa-arrow-right ml-2" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </article>
+                    
+                    <article class="glass-card card-hover rounded-3xl p-8 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        
+                        <div class="relative z-10">
+                            <div class="flex items-center justify-between mb-6">
+                                <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center shadow-lg">
+                                    <i class="fas fa-rocket text-white text-2xl" aria-hidden="true"></i>
+                                </div>
+                                <span class="text-sm text-blue-400 font-semibold bg-blue-400/10 px-3 py-1 rounded-full">SaaS</span>
+                            </div>
+                            
+                            <h3 class="text-2xl font-bold text-white mb-4">StartupXYZ Growth Campaign</h3>
+                            <p class="text-gray-300 mb-6 leading-relaxed">
+                                Comprehensive digital marketing strategy for B2B SaaS startup, generating 2,500+ qualified leads and $1.2M in new revenue within 8 months.
+                            </p>
+                            
+                            <div class="grid grid-cols-3 gap-4 mb-6">
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-green-400 mb-1">2.5K+</div>
+                                    <div class="text-xs text-gray-400">Qualified Leads</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-red-accent mb-1">$1.2M</div>
+                                    <div class="text-xs text-gray-400">New Revenue</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-purple-400 mb-1">450%</div>
+                                    <div class="text-xs text-gray-400">ROI</div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="text-xs bg-white/10 text-gray-300 px-3 py-1 rounded-full">Content Marketing</span>
+                                <span class="text-xs bg-white/10 text-gray-300 px-3 py-1 rounded-full">LinkedIn Ads</span>
+                                <span class="text-xs bg-white/10 text-gray-300 px-3 py-1 rounded-full">Email Marketing</span>
+                                <span class="text-xs bg-white/10 text-gray-300 px-3 py-1 rounded-full">Lead Generation</span>
+                            </div>
+                            
+                            <button class="text-red-accent hover:text-red-light transition-colors duration-300 font-semibold flex items-center">
+                                View Case Study <i class="fas fa-arrow-right ml-2" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </article>
+                    
+                    <article class="glass-card card-hover rounded-3xl p-8 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        
+                        <div class="relative z-10">
+                            <div class="flex items-center justify-between mb-6">
+                                <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg">
+                                    <i class="fas fa-utensils text-white text-2xl" aria-hidden="true"></i>
+                                </div>
+                                <span class="text-sm text-purple-400 font-semibold bg-purple-400/10 px-3 py-1 rounded-full">Restaurant</span>
+                            </div>
+                            
+                            <h3 class="text-2xl font-bold text-white mb-4">GrowthCo Restaurant Chain</h3>
+                            <p class="text-gray-300 mb-6 leading-relaxed">
+                                Local SEO and social media marketing for restaurant chain, increasing foot traffic by 180% and online orders by 220% across 12 locations.
+                            </p>
+                            
+                            <div class="grid grid-cols-3 gap-4 mb-6">
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-green-400 mb-1">180%</div>
+                                    <div class="text-xs text-gray-400">Foot Traffic</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-red-accent mb-1">220%</div>
+                                    <div class="text-xs text-gray-400">Online Orders</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-blue-400 mb-1">12</div>
+                                    <div class="text-xs text-gray-400">Locations</div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="text-xs bg-white/10 text-gray-300 px-3 py-1 rounded-full">Local SEO</span>
+                                <span class="text-xs bg-white/10 text-gray-300 px-3 py-1 rounded-full">Social Media</span>
+                                <span class="text-xs bg-white/10 text-gray-300 px-3 py-1 rounded-full">Google Ads</span>
+                                <span class="text-xs bg-white/10 text-gray-300 px-3 py-1 rounded-full">Review Management</span>
+                            </div>
+                            
+                            <button class="text-red-accent hover:text-red-light transition-colors duration-300 font-semibold flex items-center">
+                                View Case Study <i class="fas fa-arrow-right ml-2" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </article>
+                    
+                    <article class="glass-card card-hover rounded-3xl p-8 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-br from-green-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        
+                        <div class="relative z-10">
+                            <div class="flex items-center justify-between mb-6">
+                                <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center shadow-lg">
+                                    <i class="fas fa-leaf text-white text-2xl" aria-hidden="true"></i>
+                                </div>
+                                <span class="text-sm text-green-400 font-semibold bg-green-400/10 px-3 py-1 rounded-full">Healthcare</span>
+                            </div>
+                            
+                            <h3 class="text-2xl font-bold text-white mb-4">InnovateInc Health Platform</h3>
+                            <p class="text-gray-300 mb-6 leading-relaxed">
+                                Digital transformation for healthcare platform, improving patient engagement by 300% and reducing acquisition costs by 45% through targeted campaigns.
+                            </p>
+                            
+                            <div class="grid grid-cols-3 gap-4 mb-6">
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-green-400 mb-1">300%</div>
+                                    <div class="text-xs text-gray-400">Engagement</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-red-accent mb-1">45%</div>
+                                    <div class="text-xs text-gray-400">Cost Reduction</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-blue-400 mb-1">95%</div>
+                                    <div class="text-xs text-gray-400">Satisfaction</div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="text-xs bg-white/10 text-gray-300 px-3 py-1 rounded-full">Healthcare SEO</span>
+                                <span class="text-xs bg-white/10 text-gray-300 px-3 py-1 rounded-full">Content Strategy</span>
+                                <span class="text-xs bg-white/10 text-gray-300 px-3 py-1 rounded-full">Patient Acquisition</span>
+                                <span class="text-xs bg-white/10 text-gray-300 px-3 py-1 rounded-full">Compliance</span>
+                            </div>
+                            
+                            <button class="text-red-accent hover:text-red-light transition-colors duration-300 font-semibold flex items-center">
+                                View Case Study <i class="fas fa-arrow-right ml-2" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="text-center mt-12">
+                    <button class="btn-outline px-8 py-3">
+                        View All Projects <i class="fas fa-arrow-right ml-2" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <!-- Added premium section dividers between sections -->
+<div class="section-divider"></div>
+        <section id="about" class="gradient-mesh-dark py-20" role="region" aria-labelledby="about-heading">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-16 items-center mb-20">
+                    <div>
+                        <h2 id="about-heading" class="text-4xl lg:text-5xl font-bold mb-6">About DigitalBoost</h2>
+                        <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+                            We are a team of passionate digital marketing experts dedicated to helping businesses achieve their online goals. With over 5 years of experience and a track record of delivering exceptional results, we combine creativity with data-driven strategies to maximize your digital presence.
+                        </p>
+                        <div class="grid sm:grid-cols-2 gap-8">
+                            <div class="glass-card rounded-2xl p-6">
+                                <div class="text-red-accent text-3xl mb-4" aria-hidden="true">
+                                    <i class="fas fa-trophy"></i>
+                                </div>
+                                <h3 class="text-xl font-bold mb-2">Award Winning</h3>
+                                <p class="text-gray-300">Recognized for excellence in digital marketing innovation and client satisfaction.</p>
+                            </div>
+                            <div class="glass-card rounded-2xl p-6">
+                                <div class="text-red-accent text-3xl mb-4" aria-hidden="true">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <h3 class="text-xl font-bold mb-2">Client Focused</h3>
+                                <p class="text-gray-300">Every strategy is tailored to your unique business needs and objectives.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- CEO Message Box -->
+                    <div class="glass-card rounded-3xl p-8 relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-red-accent/20 to-transparent rounded-full -mr-16 -mt-16"></div>
+                        <div class="relative z-10">
+                            <div class="flex items-center mb-6">
+                                <div class="w-16 h-16 bg-gradient-to-br from-red-accent to-red-light rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+                                    SJ
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold">Sarah Johnson</h3>
+                                    <p class="text-gray-400">CEO & Founder</p>
+                                </div>
+                            </div>
+                            <blockquote class="text-lg text-gray-300 italic mb-6 leading-relaxed">
+                                "At DigitalBoost, we believe that every business deserves to thrive in the digital world. Our mission is to bridge the gap between traditional business practices and cutting-edge digital strategies, ensuring our clients not only survive but excel in today's competitive landscape."
+                            </blockquote>
+                            <div class="flex items-center text-sm text-gray-400">
+                                <i class="fas fa-quote-left mr-2" aria-hidden="true"></i>
+                                <span>MBA Harvard Business School • 10+ Years Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Section -->
+                <div class="text-center mb-16">
+                    <h3 class="text-3xl lg:text-4xl font-bold mb-6">Meet Our Team</h3>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Our diverse team of experts brings together years of experience in digital marketing, design, and technology.
+                    </p>
+                </div>
+                
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Team Members -->
+                    <div class="glass-card card-hover rounded-2xl p-6 text-center">
+                        <div class="w-20 h-20 bg-gradient-to-br from-red-accent to-red-light rounded-full flex items-center justify-center text-white font-bold text-2xl mx-auto mb-4">
+                            SJ
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Sarah Johnson</h4>
+                        <p class="text-red-accent font-semibold mb-3">CEO & Founder</p>
+                        <p class="text-gray-300 text-sm">Strategic visionary with 10+ years in digital marketing and business development.</p>
+                    </div>
+                    
+                    <div class="glass-card card-hover rounded-2xl p-6 text-center">
+                        <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-2xl mx-auto mb-4">
+                            MC
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Mike Chen</h4>
+                        <p class="text-blue-400 font-semibold mb-3">Technical Director</p>
+                        <p class="text-gray-300 text-sm">Full-stack developer specializing in high-performance web applications and analytics.</p>
+                    </div>
+                    
+                    <div class="glass-card card-hover rounded-2xl p-6 text-center">
+                        <div class="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-2xl mx-auto mb-4">
+                            ER
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Emily Rodriguez</h4>
+                        <p class="text-purple-400 font-semibold mb-3">Creative Director</p>
+                        <p class="text-gray-300 text-sm">Award-winning designer with expertise in brand identity and user experience design.</p>
+                    </div>
+                    
+                    <div class="glass-card card-hover rounded-2xl p-6 text-center">
+                        <div class="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center text-white font-bold text-2xl mx-auto mb-4">
+                            DP
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">David Park</h4>
+                        <p class="text-green-400 font-semibold mb-3">Analytics Manager</p>
+                        <p class="text-gray-300 text-sm">Data scientist focused on performance optimization and conversion rate improvement.</p>
+                    </div>
+                    
+                    <div class="glass-card card-hover rounded-2xl p-6 text-center">
+                        <div class="w-20 h-20 bg-gradient-to-br from-pink-500 to-pink-600 rounded-full flex items-center justify-center text-white font-bold text-2xl mx-auto mb-4">
+                            JM
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Jessica Martinez</h4>
+                        <p class="text-pink-400 font-semibold mb-3">Social Media Strategist</p>
+                        <p class="text-gray-300 text-sm">Social media expert with proven track record in community building and engagement.</p>
+                    </div>
+                    
+                    <div class="glass-card card-hover rounded-2xl p-6 text-center">
+                        <div class="w-20 h-20 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full flex items-center justify-center text-white font-bold text-2xl mx-auto mb-4">
+                            AT
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Alex Thompson</h4>
+                        <p class="text-orange-400 font-semibold mb-3">PPC Specialist</p>
+                        <p class="text-gray-300 text-sm">Certified Google and Facebook ads expert specializing in ROI optimization.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <!-- Added premium section dividers between sections -->
+<div class="section-divider"></div>
+        <section id="portfolio" class="py-20 bg-darker" role="region" aria-labelledby="portfolio-heading">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 id="portfolio-heading" class="text-4xl lg:text-5xl font-bold mb-6">Our Success Stories</h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        We've helped hundreds of businesses achieve remarkable growth through strategic digital marketing.
+                    </p>
+                </div>
+                
+                <!-- Client Logos -->
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8 mb-20">
+                    <div class="glass-card rounded-2xl p-6 flex items-center justify-center hover:border-red-accent/30 transition-all duration-300">
+                        <span class="text-2xl font-bold text-gray-400">TechCorp</span>
+                    </div>
+                    <div class="glass-card rounded-2xl p-6 flex items-center justify-center hover:border-red-accent/30 transition-all duration-300">
+                        <span class="text-2xl font-bold text-gray-400">StartupXYZ</span>
+                    </div>
+                    <div class="glass-card rounded-2xl p-6 flex items-center justify-center hover:border-red-accent/30 transition-all duration-300">
+                        <span class="text-2xl font-bold text-gray-400">GrowthCo</span>
+                    </div>
+                    <div class="glass-card rounded-2xl p-6 flex items-center justify-center hover:border-red-accent/30 transition-all duration-300">
+                        <span class="text-2xl font-bold text-gray-400">InnovateInc</span>
+                    </div>
+                    <div class="glass-card rounded-2xl p-6 flex items-center justify-center hover:border-red-accent/30 transition-all duration-300">
+                        <span class="text-2xl font-bold text-gray-400">ScaleUp</span>
+                    </div>
+                    <div class="glass-card rounded-2xl p-6 flex items-center justify-center hover:border-red-accent/30 transition-all duration-300">
+                        <span class="text-2xl font-bold text-gray-400">NextGen</span>
+                    </div>
+                </div>
+                
+                <!-- Success Metrics -->
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="glass-card rounded-2xl p-8 text-center card-hover">
+                        <div class="text-4xl font-bold text-red-accent mb-2" data-count="300">0</div>
+                        <div class="text-xl font-semibold mb-2">Average ROI Increase</div>
+                        <div class="text-gray-400">Across all client campaigns</div>
+                    </div>
+                    <div class="glass-card rounded-2xl p-8 text-center card-hover">
+                        <div class="text-4xl font-bold text-green-400 mb-2" data-count="2500000">0</div>
+                        <div class="text-xl font-semibold mb-2">Leads Generated</div>
+                        <div class="text-gray-400">For our clients this year</div>
+                    </div>
+                    <div class="glass-card rounded-2xl p-8 text-center card-hover">
+                        <div class="text-4xl font-bold text-blue-400 mb-2" data-count="150">0</div>
+                        <div class="text-xl font-semibold mb-2">Traffic Growth</div>
+                        <div class="text-gray-400">Average increase in 6 months</div>
+                    </div>
+                    <div class="glass-card rounded-2xl p-8 text-center card-hover">
+                        <div class="text-4xl font-bold text-purple-400 mb-2" data-count="98">0</div>
+                        <div class="text-xl font-semibold mb-2">Client Satisfaction</div>
+                        <div class="text-gray-400">Based on client surveys</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <!-- Enhanced testimonials with premium styling -->
+<section id="testimonials" class="py-20 lg:py-32 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-slate-900/50 to-slate-950/50"></div>
+    
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black mb-6">
+                <span class="text-gradient-premium">Client</span> <span class="text-gradient">Success Stories</span>
+            </h2>
+            <p class="text-xl text-slate-300 max-w-3xl mx-auto">
+                Discover how we've helped businesses achieve extraordinary results
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="glass-card testimonial-premium rounded-3xl p-8 card-hover">
+                <div class="flex items-center mb-6">
+                    <div class="w-12 h-12 rounded-full bg-gradient-to-r from-yellow-400 to-red-500 flex items-center justify-center text-white font-bold text-lg mr-4">
+                        S
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-white">Sarah Johnson</h4>
+                        <p class="text-slate-400 text-sm">CEO, TechStart Inc.</p>
+                    </div>
+                </div>
+                <p class="text-slate-300 mb-6 leading-relaxed">
+                    "DigitalBoost transformed our online presence completely. Our revenue increased by 300% in just 6 months. Their premium approach to digital marketing is unmatched."
+                </p>
+                <div class="flex text-yellow-400">
+                    ★★★★★
+                </div>
+            </div>
+
+            <div class="glass-card testimonial-premium rounded-3xl p-8 card-hover">
+                <div class="flex items-center mb-6">
+                    <div class="w-12 h-12 rounded-full bg-gradient-to-r from-blue-400 to-purple-500 flex items-center justify-center text-white font-bold text-lg mr-4">
+                        J
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-white">James Miller</h4>
+                        <p class="text-slate-400 text-sm">Founder, Innovate Solutions</p>
+                    </div>
+                </div>
+                <p class="text-slate-300 mb-6 leading-relaxed">
+                    "The team at DigitalBoost is exceptional. They understood our vision and delivered a marketing strategy that exceeded our expectations. We highly recommend their services."
+                </p>
+                <div class="flex text-yellow-400">
+                    ★★★★★
+                </div>
+            </div>
+
+            <div class="glass-card testimonial-premium rounded-3xl p-8 card-hover">
+                <div class="flex items-center mb-6">
+                    <div class="w-12 h-12 rounded-full bg-gradient-to-r from-green-400 to-blue-500 flex items-center justify-center text-white font-bold text-lg mr-4">
+                        E
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-white">Emily White</h4>
+                        <p class="text-slate-400 text-sm">Marketing Director, GlobalTech</p>
+                    </div>
+                </div>
+                <p class="text-slate-300 mb-6 leading-relaxed">
+                    "DigitalBoost's expertise in SEO and content marketing helped us reach a wider audience and increase our brand awareness. Their team is professional, responsive, and results-oriented."
+                </p>
+                <div class="flex text-yellow-400">
+                    ★★★★★
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Pricing Section -->
+        <!-- Added premium section dividers between sections -->
+<div class="section-divider"></div>
+        <section id="pricing" class="py-20 bg-darker" role="region" aria-labelledby="pricing-heading">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 id="pricing-heading" class="text-4xl lg:text-5xl font-bold mb-6">Choose Your Plan</h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Select the perfect plan for your business needs. All plans include our core services and dedicated support.
+                    </p>
+                </div>
+                
+                <div class="grid lg:grid-cols-3 gap-8">
+                    <!-- Starter Plan -->
+                    <div class="glass-card card-hover rounded-3xl p-8">
+                        <div class="text-center mb-8">
+                            <h3 class="text-2xl font-bold mb-4">Starter</h3>
+                            <div class="text-4xl font-bold mb-2">$2,999<span class="text-lg text-gray-400">/month</span></div>
+                            <p class="text-gray-400">Perfect for small businesses</p>
+                        </div>
+                        <ul class="space-y-4 mb-8" role="list">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>
+                                <span>SEO Optimization</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>
+                                <span>Social Media Management</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>
+                                <span>Monthly Reporting</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>
+                                <span>Email Support</span>
+                            </li>
+                        </ul>
+                        <button onclick="openConsultationModal()" class="btn-outline w-full">
+                            Get Started
+                        </button>
+                    </div>
+                    
+                    <!-- Growth Plan (Featured) -->
+                    <div class="glass-card card-hover rounded-3xl p-8 relative border-red-accent/50 bg-red-accent/5">
+                        <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                            <span class="bg-red-accent text-white px-4 py-2 rounded-full text-sm font-semibold">Most Popular</span>
+                        </div>
+                        <div class="text-center mb-8">
+                            <h3 class="text-2xl font-bold mb-4">Growth</h3>
+                            <div class="text-4xl font-bold mb-2">$5,999<span class="text-lg text-gray-400">/month</span></div>
+                            <p class="text-gray-400">Ideal for growing companies</p>
+                        </div>
+                        <ul class="space-y-4 mb-8" role="list">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>
+                                <span>Everything in Starter</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>
+                                <span>PPC Advertising</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>
+                                <span>Content Marketing</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>
+                                <span>Advanced Analytics</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>
+                                <span>Phone Support</span>
+                            </li>
+                        </ul>
+                        <button onclick="openConsultationModal()" class="btn-primary w-full">
+                            Get Started
+                        </button>
+                    </div>
+                    
+                    <!-- Scale Plan -->
+                    <div class="glass-card card-hover rounded-3xl p-8">
+                        <div class="text-center mb-8">
+                            <h3 class="text-2xl font-bold mb-4">Scale</h3>
+                            <div class="text-4xl font-bold mb-2">$9,999<span class="text-lg text-gray-400">/month</span></div>
+                            <p class="text-gray-400">For enterprise businesses</p>
+                        </div>
+                        <ul class="space-y-4 mb-8" role="list">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>
+                                <span>Everything in Growth</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>
+                                <span>Custom Web Development</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>
+                                <span>Marketing Automation</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>
+                                <span>Dedicated Account Manager</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-red-accent mr-3" aria-hidden="true"></i>
+                                <span>24/7 Priority Support</span>
+                            </li>
+                        </ul>
+                        <button onclick="openConsultationModal()" class="btn-outline w-full">
+                            Get Started
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <!-- Added premium section dividers between sections -->
+<div class="section-divider"></div>
+        <section class="gradient-mesh py-20" role="region" aria-labelledby="cta-heading">
+            <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+                <h2 id="cta-heading" class="text-4xl lg:text-5xl font-bold mb-6">Ready to Transform Your Business?</h2>
+                <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+                    Join hundreds of successful businesses that have accelerated their growth with our proven digital marketing strategies.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button onclick="openConsultationModal()" class="btn-primary text-lg px-8 py-4 animate-pulse-glow">
+                        Book Free Consultation
+                    </button>
+                    <a href="#portfolio" class="btn-outline text-lg px-8 py-4">
+                        View Success Stories
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-darker py-16" role="contentinfo">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-4 gap-8 mb-12">
+                <div class="lg:col-span-2">
+                    <a href="#home" class="text-3xl font-bold text-white flex items-center mb-4">
+                        <i class="fas fa-rocket mr-3 text-primary" aria-hidden="true"></i>
+                        DigitalBoost
+                    </a>
+                    <p class="text-gray-400 mb-6 max-w-md">
+                        Transforming businesses through innovative digital marketing strategies. We help you achieve measurable growth and sustainable success in the digital landscape.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-red-accent transition-colors duration-300" aria-label="Facebook">
+                            <i class="fab fa-facebook-f text-xl" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-red-accent transition-colors duration-300" aria-label="Twitter">
+                            <i class="fab fa-twitter text-xl" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-red-accent transition-colors duration-300" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in text-xl" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-red-accent transition-colors duration-300" aria-label="Instagram">
+                            <i class="fab fa-instagram text-xl" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2" role="list">
+                        <li><a href="#services" class="text-gray-400 hover:text-red-accent transition-colors duration-300">SEO Optimization</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-red-accent transition-colors duration-300">PPC Advertising</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-red-accent transition-colors duration-300">Social Media Marketing</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-red-accent transition-colors duration-300">Web Development</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-red-accent transition-colors duration-300">Email Marketing</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2" role="list">
+                        <li><a href="#about" class="text-gray-400 hover:text-red-accent transition-colors duration-300">About Us</a></li>
+                        <li><a href="#projects" class="text-gray-400 hover:text-red-accent transition-colors duration-300">Our Work</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-red-accent transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-red-accent transition-colors duration-300">Careers</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-red-accent transition-colors duration-300">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm mb-4 md:mb-0">
+                        © 2024 DigitalBoost Agency. All rights reserved.
+                    </p>
+                    <div class="flex space-x-6">
+                        <a href="#" class="text-gray-400 hover:text-red-accent transition-colors duration-300 text-sm">Privacy Policy</a>
+                        <a href="#" class="text-gray-400 hover:text-red-accent transition-colors duration-300 text-sm">Terms of Service</a>
+                        <a href="#" class="text-gray-400 hover:text-red-accent transition-colors duration-300 text-sm">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Consultation Modal -->
+    <div id="consultationModal" class="modal fixed inset-0 z-50 hidden flex items-center justify-center p-4" role="dialog" aria-labelledby="modal-title" aria-modal="true">
+        <div class="modal-content rounded-3xl p-8 max-w-2xl w-full max-h-90vh overflow-y-auto">
+            <div class="flex justify-between items-center mb-6">
+                <h3 id="modal-title" class="text-2xl font-bold">Book Your Free Consultation</h3>
+                <button onclick="closeConsultationModal()" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Close modal">
+                    <i class="fas fa-times text-xl" aria-hidden="true"></i>
+                </button>
+            </div>
+            
+            <form id="consultationForm" class="space-y-6" novalidate>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="firstName" class="block text-sm font-medium mb-2">First Name *</label>
+                        <input type="text" id="firstName" name="firstName" required class="form-input" placeholder="John">
+                    </div>
+                    <div>
+                        <label for="lastName" class="block text-sm font-medium mb-2">Last Name *</label>
+                        <input type="text" id="lastName" name="lastName" required class="form-input" placeholder="Doe">
+                    </div>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="email" class="block text-sm font-medium mb-2">Email Address *</label>
+                        <input type="email" id="email" name="email" required class="form-input" placeholder="john@company.com">
+                    </div>
+                    <div>
+                        <label for="phone" class="block text-sm font-medium mb-2">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" class="form-input" placeholder="+1 (555) 123-4567">
+                    </div>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="company" class="block text-sm font-medium mb-2">Company Name *</label>
+                        <input type="text" id="company" name="company" required class="form-input" placeholder="Your Company">
+                    </div>
+                    <div>
+                        <label for="website" class="block text-sm font-medium mb-2">Website URL</label>
+                        <input type="url" id="website" name="website" class="form-input" placeholder="https://yourwebsite.com">
+                    </div>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="budget" class="block text-sm font-medium mb-2">Monthly Budget Range *</label>
+                        <select id="budget" name="budget" required class="form-input">
+                            <option value="">Select budget range</option>
+                            <option value="under-3k">Under $3,000</option>
+                            <option value="3k-6k">$3,000 - $6,000</option>
+                            <option value="6k-10k">$6,000 - $10,000</option>
+                            <option value="10k-plus">$10,000+</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="timeline" class="block text-sm font-medium mb-2">Project Timeline</label>
+                        <select id="timeline" name="timeline" class="form-input">
+                            <option value="">Select timeline</option>
+                            <option value="asap">ASAP</option>
+                            <option value="1-month">Within 1 month</option>
+                            <option value="3-months">Within 3 months</option>
+                            <option value="6-months">Within 6 months</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div>
+                    <label for="services" class="block text-sm font-medium mb-2">Services Interested In *</label>
+                    <div class="grid grid-cols-2 gap-3">
+                        <label class="flex items-center">
+                            <input type="checkbox" name="services" value="seo" class="mr-2 rounded">
+                            <span class="text-sm">SEO Optimization</span>
+                        </label>
+                        <label class="flex items-center">
+                            <input type="checkbox" name="services" value="ppc" class="mr-2 rounded">
+                            <span class="text-sm">PPC Advertising</span>
+                        </label>
+                        <label class="flex items-center">
+                            <input type="checkbox" name="services" value="social" class="mr-2 rounded">
+                            <span class="text-sm">Social Media Marketing</span>
+                        </label>
+                        <label class="flex items-center">
+                            <input type="checkbox" name="services" value="web" class="mr-2 rounded">
+                            <span class="text-sm">Web Development</span>
+                        </label>
+                        <label class="flex items-center">
+                            <input type="checkbox" name="services" value="email" class="mr-2 rounded">
+                            <span class="text-sm">Email Marketing</span>
+                        </label>
+                        <label class="flex items-center">
+                            <input type="checkbox" name="services" value="analytics" class="mr-2 rounded">
+                            <span class="text-sm">Analytics & Reporting</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div>
+                    <label for="goals" class="block text-sm font-medium mb-2">Primary Business Goals *</label>
+                    <textarea id="goals" name="goals" required rows="4" class="form-input resize-none" placeholder="Tell us about your main objectives and what you hope to achieve..."></textarea>
+                </div>
+                
+                <div>
+                    <label for="challenges" class="block text-sm font-medium mb-2">Current Marketing Challenges</label>
+                    <textarea id="challenges" name="challenges" rows="3" class="form-input resize-none" placeholder="What marketing challenges are you currently facing?"></textarea>
+                </div>
+                
+                <div>
+                    <label for="preferredTime" class="block text-sm font-medium mb-2">Preferred Meeting Time</label>
+                    <select id="preferredTime" name="preferredTime" class="form-input">
+                        <option value="">Select preferred time</option>
+                        <option value="morning">Morning (9 AM - 12 PM)</option>
+                        <option value="afternoon">Afternoon (12 PM - 5 PM)</option>
+                        <option value="evening">Evening (5 PM - 8 PM)</option>
+                    </select>
+                </div>
+                
+                <div class="flex items-center">
+                    <input type="checkbox" id="newsletter" name="newsletter" class="mr-3 rounded">
+                    <label for="newsletter" class="text-sm text-gray-300">
+                        I'd like to receive marketing insights and updates from DigitalBoost
+                    </label>
+                </div>
+                
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button type="submit" class="btn-primary flex-1">
+                        <span class="loading-text">Book Free Consultation</span>
+                        <span class="loading-spinner hidden">
+                            <i class="fas fa-spinner fa-spin mr-2" aria-hidden="true"></i>
+                            Submitting...
+                        </span>
+                    </button>
+                    <button type="button" onclick="closeConsultationModal()" class="btn-outline flex-1">
+                        Cancel
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Enhanced JavaScript with error handling and accessibility
+        
+        // Mobile menu functionality
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        if (mobileMenuButton && mobileMenu) {
+            mobileMenuButton.addEventListener('click', function() {
+                const isExpanded = mobileMenu.classList.contains('hidden');
+                mobileMenu.classList.toggle('hidden');
+                mobileMenuButton.setAttribute('aria-expanded', !isExpanded);
+                
+                // Update icon
+                const icon = mobileMenuButton.querySelector('i');
+                if (icon) {
+                    icon.classList.toggle('fa-bars');
+                    icon.classList.toggle('fa-times');
+                }
+            });
+        }
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const offsetTop = target.offsetTop - 80; // Account for fixed navbar
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    if (mobileMenu && !mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                        mobileMenuButton.setAttribute('aria-expanded', 'false');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.add('fa-bars');
+                            icon.classList.remove('fa-times');
+                        }
+                    }
+                }
+            });
+        });
+        
+        // Animated counters with intersection observer
+        function animateCounter(element, target, duration = 2000) {
+            let start = 0;
+            const increment = target / (duration / 16);
+            
+            function updateCounter() {
+                start += increment;
+                if (start < target) {
+                    element.textContent = Math.floor(start);
+                    requestAnimationFrame(updateCounter);
+                } else {
+                    element.textContent = target;
+                }
+            }
+            
+            updateCounter();
+        }
+        
+        // Intersection Observer for counter animation
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !entry.target.classList.contains('animated')) {
+                    const target = parseInt(entry.target.getAttribute('data-count'));
+                    animateCounter(entry.target, target);
+                    entry.target.classList.add('animated');
+                }
+            });
+        }, { threshold: 0.5 });
+        
+        // Observe all counter elements
+        document.querySelectorAll('[data-count]').forEach(counter => {
+            counterObserver.observe(counter);
+        });
+        
+        // Modal functionality
+        const consultationModal = document.getElementById('consultationModal');
+        const consultationForm = document.getElementById('consultationForm');
+        
+        function openConsultationModal() {
+            if (consultationModal) {
+                consultationModal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+                
+                // Focus management for accessibility
+                const firstInput = consultationModal.querySelector('input, select, textarea');
+                if (firstInput) {
+                    setTimeout(() => firstInput.focus(), 100);
+                }
+            }
+        }
+        
+        function closeConsultationModal() {
+            if (consultationModal) {
+                consultationModal.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+            }
+        }
+        
+        // Close modal on backdrop click
+        if (consultationModal) {
+            consultationModal.addEventListener('click', function(e) {
+                if (e.target === consultationModal) {
+                    closeConsultationModal();
+                }
+            });
+        }
+        
+        // Close modal on Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && consultationModal && !consultationModal.classList.contains('hidden')) {
+                closeConsultationModal();
+            }
+        });
+        
+        // Form submission with validation
+        if (consultationForm) {
+            consultationForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Basic form validation
+                const requiredFields = consultationForm.querySelectorAll('[required]');
+                let isValid = true;
+                
+                requiredFields.forEach(field => {
+                    if (!field.value.trim()) {
+                        isValid = false;
+                        field.classList.add('border-red-500');
+                        
+                        // Remove error styling on input
+                        field.addEventListener('input', function() {
+                            this.classList.remove('border-red-500');
+                        }, { once: true });
+                    }
+                });
+                
+                // Check if at least one service is selected
+                const serviceCheckboxes = consultationForm.querySelectorAll('input[name="services"]:checked');
+                if (serviceCheckboxes.length === 0) {
+                    isValid = false;
+                    alert('Please select at least one service you\'re interested in.');
+                }
+                
+                if (isValid) {
+                    // Show loading state
+                    const submitButton = consultationForm.querySelector('button[type="submit"]');
+                    const loadingText = submitButton.querySelector('.loading-text');
+                    const loadingSpinner = submitButton.querySelector('.loading-spinner');
+                    
+                    if (loadingText && loadingSpinner) {
+                        loadingText.classList.add('hidden');
+                        loadingSpinner.classList.remove('hidden');
+                        submitButton.disabled = true;
+                    }
+                    
+                    // Simulate form submission
+                    setTimeout(() => {
+                        alert('Thank you for your interest! We\'ll contact you within 24 hours to schedule your free consultation.');
+                        closeConsultationModal();
+                        consultationForm.reset();
+                        
+                        // Reset loading state
+                        if (loadingText && loadingSpinner) {
+                            loadingText.classList.remove('hidden');
+                            loadingSpinner.classList.add('hidden');
+                            submitButton.disabled = false;
+                        }
+                    }, 2000);
+                }
+            });
+        }
+        
+        // Navbar background on scroll
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('nav');
+            if (navbar) {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('backdrop-blur-xl');
+                } else {
+                    navbar.classList.remove('backdrop-blur-xl');
+                }
+            }
+        });
+        
+        // Performance optimization: Lazy load images
+        if ('IntersectionObserver' in window) {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src;
+                        img.classList.remove('lazy');
+                        observer.unobserve(img);
+                    }
+                });
+            });
+            
+            document.querySelectorAll('img[data-src]').forEach(img => {
+                imageObserver.observe(img);
+            });
+        }
+        
+        // Error handling for failed resource loads
+        window.addEventListener('error', function(e) {
+            console.error('Resource failed to load:', e.target.src || e.target.href);
+        });
+        
+        // Service Worker registration for PWA capabilities (optional)
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(function(registration) {
+                        console.log('SW registered: ', registration);
+                    })
+                    .catch(function(registrationError) {
+                        console.log('SW registration failed: ', registrationError);
+                    });
+            });
+        }
+        
+        // Analytics tracking (placeholder)
+        function trackEvent(eventName, properties = {}) {
+            // Implement your analytics tracking here
+            console.log('Event tracked:', eventName, properties);
+        }
+        
+        // Track button clicks
+        document.querySelectorAll('button, .btn-primary, .btn-outline').forEach(button => {
+            button.addEventListener('click', function() {
+                trackEvent('button_click', {
+                    button_text: this.textContent.trim(),
+                    button_location: this.closest('section')?.id || 'unknown'
+                });
+            });
+        });
+        
+        // Make functions globally available
+        window.openConsultationModal = openConsultationModal;
+        window.closeConsultationModal = closeConsultationModal;
+    </script>
+</body>
+</html>
